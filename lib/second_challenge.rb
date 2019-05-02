@@ -1,4 +1,3 @@
-require 'pry'
 
 def second_challenge
   groceries = {
@@ -9,8 +8,5 @@ def second_challenge
   }
 
   groceries.values.flatten
-  binding.pry
-
 end
 
-second_challenge
